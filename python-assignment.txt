@@ -1,0 +1,93 @@
+DATATYPES:-
+
+Q-1 Differentiate between lists and tuples.
+Ans:- The major difference is that a list is mutable, but a tuple is immutable. The list comes in square brackets while tuples comes in parantheses.
+
+Q-2 What are Data Types?
+Ans:- A data type is a set of values and a set of operations defined on data. An implementation of a data type is an expression of data and operations in terms of a specific programming language such as Java, C ++, or Python.
+
+Q-3 What is a dictionary in Python?
+Ans:- Python dictionary is one of the supported data types in Python. It is an unordered collection of elements. The elements in dictionaries are stored as key-value pairs. Dictionaries are indexed by keys.
+
+Q-4  What are the common built-in data types in Python?
+Ans:- Python supports the below-mentioned built-in data types:
+
+      Immutable data types:
+      a) Number
+      b) String
+      c) Tuple
+      Mutable data types:
+      a) List
+      b) Dictionary
+      c) Set
+
+Q-5 What is the difference between a Set and Dictionary?
+An:- The set is an unordered collection of data types that is iterable, mutable and has no duplicate elements.
+     A dictionary in Python is an unordered collection of data values, used to store data values in key value pairs.
+
+FUNCTIONS:- 
+
+Q-6 What are functions in Python?
+Ans:- A function is a block of code which is executed only when a call is made to the function. def keyword is used to define a particular function.
+
+Q-7  What are local variables and global variables in Python?
+Ans:- Local variable: Any variable declared inside a function is known as Local variable and it’s accessibility remains inside that function only.
+      Global Variable: Any variable declared outside the function is known as Global variable and it can be easily accessible by any function present throughout the program.
+
+Q-8 Explain help() and dir() functions in Python.
+Ans:- The help() function displays the documentation string and help for its argument.
+      The dir() function displays all the members of an object(any kind).
+
+Q-9 What is recursion?
+Ans:- When a function makes a call to itself, it is termed recursion. 
+
+Q-10 Define lambda() function.
+Ans:- A lambda function is a simple one-line function. It doesn’t use def or return keywords.
+      Syntax:- add = lambda x,y : x+y
+
+Q-11 Define map()function       
+Ans:- When we want to apply the same function to each element of a sequence, we use the map() function.
+      Syntax:- list1 = [1,2,3,4,5]
+               list2 = list(map(lambda x : x**2, list1))
+
+Q-12 What Does The Ord() Function Do In Python?
+Ans:- The ord(char) in Python takes a string of size one and returns an integer denoting the Unicode code format of the character in case of a Unicode type object, or the value of the byte if the argument is of 8-bit string type.
+
+Q-13 Mention the use of the split function in Python
+Ans:- The use of the split function in Python is that it breaks a string into shorter strings using the defined separator. It gives a list of all words present in the string.
+
+
+OPERATORS:-
+
+Q-14 What are the 7 operators in Python?
+Ans:- a) Python Operators
+      b) Arithmetic operators.
+      c) Assignment operators.
+      d) Comparison operators.
+      e) Logical operators.
+      f) Identity operators.
+      g) Membership operators.
+      h) Bitwise operators.
+
+CONDITIONAL OPERATORS:-
+
+Q-15 What is the difference between Pass And Continue In Python? 
+Ans:- The continue statement makes the loop to resume from the next iteration.
+      On the contrary, the pass statement instructs to do nothing, and the remainder of the code executes as usual.
+
+Q-16 What are the main conditional statements in Python?
+Ans:- if, if-else, elif nested if and nested if-else
+
+LOOPING STATEMENTS:-  
+
+Q-17 What are the different types of looping statements in python?
+Ans:- for loop and while loop 
+
+Q-18 What is the difference between a for loop and a while loop?
+Ans:- A for loop is typically used when you know exactly how many times the loop needs to be repeated. A while loop is typically used when you don't know how many times the loop needs to be repeated.
+
+Q-19 How can I use a break statement in my Python for loops?
+Ans:- A break statement can be used to terminate a loop. It is often used when the programmer needs to stop iterating through the data and instead go back to checking for other conditions. 
+
+Q-20 Which loop does not support python?
+Ans:- Do-while loop  
